@@ -22,3 +22,13 @@ Kthset<string> st(10);
 * `getKth()`
 小さい方からK番目の値を取得します。
 要素数がK未満の場合はエラーが出ます。
+# 計算量
+要素数を$N$としたとき、
+* `insert(v)`
+$O(logN)$
+* `erase(v)`
+$O(logN)$
+* `size()`
+$O(1)$
+* `getKth()`
+$O(1)$
