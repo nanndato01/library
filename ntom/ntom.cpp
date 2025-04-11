@@ -12,7 +12,7 @@ std::string ntom(std::string str, const std::string S, const std::string T){
     res.push_back(T[sum % m]);
     sum /= m;
   }while(sum);
-  reverse(res.begin(), res.end());
+  std::reverse(res.begin(), res.end());
   return res;
 }
 std::string ntom(std::string str, const int n, const int m){
