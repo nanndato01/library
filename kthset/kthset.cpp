@@ -3,7 +3,7 @@ template<typename T>
 struct Kthset{
 private:
   std::set<T>L, R;
-  T K;
+  int K;
 public:
   Kthset(int k) : K(k){}
   void insert(T v){
