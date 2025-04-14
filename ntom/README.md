@@ -19,7 +19,7 @@ ntom("ABCD", "0123456789ABCDEF", "0123456")
 ```
 ---
 ```cpp
-string(string str, const int n, const int m)
+string ntom(string str, const int n, const int m)
 ```
 
 * 概要：対応表の代わりにn、mを直接引数として渡すと自動的に変換されます。2 ~ 10進数までは`0` ~ `9`、11 ~ 36進数までは`A` ~ `Z`が自動的に割り当てられます。37進数以上で変換する場合は対応表を引数として渡してください。
